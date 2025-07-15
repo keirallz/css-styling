@@ -1,0 +1,79 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf6e3;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+header {
+  background-color: #ffccbc;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+h1 {
+  font-family: 'Georgia', serif;
+  font-size: 2.5rem;
+}
+
+/* Movie section styling */
+.movie {
+  background-color: #fff8dc;
+  margin: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect using transform */
+.movie:hover {
+  transform: scale(1.03);
+  box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Image styling */
+.movie img {
+  max-width: 200px;
+  border-radius: 8px;
+  transition: opacity 0.4s ease;
+}
+
+.movie img:hover {
+  opacity: 0.85;
+}
+
+/* Advanced text styling */
+blockquote {
+  font-family: 'Courier New', monospace;
+  font-style: italic;
+  color: #666;
+  margin-top: 1rem;
+}
+
+/* ID selector for favorite movie */
+#favorite {
+  background-color: #ffe0b2;
+  animation: pulse 3s infinite;
+}
+
+/* Keyframe animation */
+@keyframes pulse {
+  0% { box-shadow: 0 0 10px #ffa726; }
+  50% { box-shadow: 0 0 20px #ff7043; }
+  100% { box-shadow: 0 0 10px #ffa726; }
+}
+
+/* Footer styling */
+footer {
+  background-color: #ffccbc;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #444;
+}
+
